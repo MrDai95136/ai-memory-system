@@ -160,7 +160,7 @@ def format_messages(messages):
             except:
                 pass
         
-        role_label = '👤 用户' if msg['role'] == 'user' else '🦁 七十八'
+        role_label = '👤 用户' if msg['role'] == 'user' else '🦁 AI'
         
         # 清理文本，限制过长内容
         text = msg['text']
